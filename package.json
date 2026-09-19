@@ -1,0 +1,22 @@
+{
+  "name": "sundascript",
+  "version": "1.0.0",
+  "description": "Bahasa pemrograman skrip berbasis kosa kata bahasa Sunda (.euy)",
+  "main": "src/interpreter.js",
+  "bin": {
+    "sundascript": "bin/cli.js",
+    "euy": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js tes.euy"
+  },
+  "keywords": [
+    "sundascript",
+    "euy",
+    "sunda",
+    "programming-language",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT"
+}
