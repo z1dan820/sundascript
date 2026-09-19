@@ -1,0 +1,11 @@
+gorowok("=== TES SUNDASCRIPT ===");
+
+boga ngaran = penta("Saha ngaran anjeun? ");
+gorowok("Wilujeng sumping, " + ngaran + "!");
+
+boga umur = 18;
+lamun (umur >= 17) {
+    gorowok("Geus boga KTP euy!");
+} poko mah {
+    gorowok("Masi budak leutik.");
+}
